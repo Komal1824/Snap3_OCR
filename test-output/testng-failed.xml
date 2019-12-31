@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.knoldus.snap3.Snap3_1LoginCheckWithValidCredentials">
+      <class name="com.knoldus.snap3.Julimr_EnterValues">
         <methods>
           <include name="checkLogin"/>
         </methods>
-      </class> <!-- com.knoldus.snap3.Snap3_1LoginCheckWithValidCredentials -->
+      </class> <!-- com.knoldus.snap3.Julimr_EnterValues -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

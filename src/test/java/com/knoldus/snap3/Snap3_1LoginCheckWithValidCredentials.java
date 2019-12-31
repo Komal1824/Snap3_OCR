@@ -10,8 +10,8 @@ import org.testng.annotations.Test;
 @Test
 public class Snap3_1LoginCheckWithValidCredentials extends InputOutputObjects {
 	
-	//InputOutputObjects inputOutput = new InputOutputObjects();
 	
+
 	public void checkLogin()
 	{
 		System.setProperty("webdriver.chrome.driver", "/home/knoldus/Downloads/Automation/chromedriver_linux64/chromedriver");
@@ -21,7 +21,6 @@ public class Snap3_1LoginCheckWithValidCredentials extends InputOutputObjects {
 		String url = driver.getCurrentUrl();
 		System.out.println(url);
 		//login form presence 
-		driver.findElement(loginSection).isDisplayed();
 		driver.findElement(loginSection).isDisplayed();
 		
 		driver.findElement(emailTextbox).isDisplayed();
@@ -37,6 +36,7 @@ public class Snap3_1LoginCheckWithValidCredentials extends InputOutputObjects {
 		url.equals("http://snap3-staging.platform3.co/dashboard");
 		
 		System.out.println("Login successful");
+		
 		driver.close();
 		
 		

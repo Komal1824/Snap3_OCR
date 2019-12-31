@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15153" started-at="2019-12-19T07:44:39Z" finished-at="2019-12-19T07:44:54Z">
+  <suite name="Default suite" duration-ms="8203" started-at="2019-12-31T05:30:18Z" finished-at="2019-12-31T05:30:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15153" started-at="2019-12-19T07:44:39Z" finished-at="2019-12-19T07:44:54Z">
-      <class name="com.knoldus.snap3.Snap3_1LoginCheckWithValidCredentials">
-        <test-method status="PASS" signature="checkLogin()[pri:0, instance:com.knoldus.snap3.Snap3_1LoginCheckWithValidCredentials@5e5792a0]" name="checkLogin" duration-ms="15136" started-at="2019-12-19T07:44:39Z" finished-at="2019-12-19T07:44:54Z">
+    <test name="Default test" duration-ms="8203" started-at="2019-12-31T05:30:18Z" finished-at="2019-12-31T05:30:26Z">
+      <class name="com.knoldus.snap3.Julimr_EnterValues">
+        <test-method status="PASS" signature="checkLogin()[pri:0, instance:com.knoldus.snap3.Julimr_EnterValues@5e5792a0]" name="checkLogin" duration-ms="8182" started-at="2019-12-31T05:30:18Z" finished-at="2019-12-31T05:30:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogin -->
-      </class> <!-- com.knoldus.snap3.Snap3_1LoginCheckWithValidCredentials -->
+      </class> <!-- com.knoldus.snap3.Julimr_EnterValues -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
